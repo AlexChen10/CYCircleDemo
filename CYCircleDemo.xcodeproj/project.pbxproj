@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD307A7D2041467D00900AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307A7C2041467D00900AF7 /* main.m */; };
+		DD307A802041467D00900AF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307A7F2041467D00900AF7 /* AppDelegate.m */; };
+		DD307A832041467D00900AF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307A822041467D00900AF7 /* ViewController.m */; };
+		DD307A862041467D00900AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD307A842041467D00900AF7 /* Main.storyboard */; };
+		DD307A882041467D00900AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD307A872041467D00900AF7 /* Assets.xcassets */; };
+		DD307A8B2041467D00900AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD307A892041467D00900AF7 /* LaunchScreen.storyboard */; };
+		DD307AB8204146C200900AF7 /* CYCircleHomeCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AAB204146C200900AF7 /* CYCircleHomeCenterViewController.m */; };
+		DD307AB9204146C200900AF7 /* CYAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AAE204146C200900AF7 /* CYAnswerModel.m */; };
+		DD307ABA204146C200900AF7 /* CYCircleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AB0204146C200900AF7 /* CYCircleModel.m */; };
+		DD307ABB204146C200900AF7 /* CYAnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AB3204146C200900AF7 /* CYAnswerView.m */; };
+		DD307ABC204146C200900AF7 /* CYCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AB5204146C200900AF7 /* CYCircleCell.m */; };
+		DD307ABD204146C200900AF7 /* CYCircleImgCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AB7204146C200900AF7 /* CYCircleImgCollectionViewCell.m */; };
+		DD307AC32041471600900AF7 /* UIBarButtonItem+WX.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AC12041471600900AF7 /* UIBarButtonItem+WX.m */; };
+		DD307AC62041473E00900AF7 /* UIImage+WX.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AC52041473E00900AF7 /* UIImage+WX.m */; };
+		DD307ACC2041475300900AF7 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AC92041475300900AF7 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		DD307ACD2041475300900AF7 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307ACB2041475300900AF7 /* UIView+SDAutoLayout.m */; };
+		DD307AD3204147DF00900AF7 /* FitsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AD0204147DF00900AF7 /* FitsTool.m */; };
+		DD307AD4204147DF00900AF7 /* ScreenAdapt.m in Sources */ = {isa = PBXBuildFile; fileRef = DD307AD2204147DF00900AF7 /* ScreenAdapt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD307A782041467D00900AF7 /* CYCircleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYCircleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD307A7C2041467D00900AF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD307A7E2041467D00900AF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD307A7F2041467D00900AF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD307A812041467D00900AF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD307A822041467D00900AF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD307A852041467D00900AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD307A872041467D00900AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD307A8A2041467D00900AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD307A8C2041467D00900AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD307AAA204146C200900AF7 /* CYCircleHomeCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCircleHomeCenterViewController.h; sourceTree = "<group>"; };
+		DD307AAB204146C200900AF7 /* CYCircleHomeCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCircleHomeCenterViewController.m; sourceTree = "<group>"; };
+		DD307AAD204146C200900AF7 /* CYAnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYAnswerModel.h; sourceTree = "<group>"; };
+		DD307AAE204146C200900AF7 /* CYAnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYAnswerModel.m; sourceTree = "<group>"; };
+		DD307AAF204146C200900AF7 /* CYCircleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCircleModel.h; sourceTree = "<group>"; };
+		DD307AB0204146C200900AF7 /* CYCircleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCircleModel.m; sourceTree = "<group>"; };
+		DD307AB2204146C200900AF7 /* CYAnswerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYAnswerView.h; sourceTree = "<group>"; };
+		DD307AB3204146C200900AF7 /* CYAnswerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYAnswerView.m; sourceTree = "<group>"; };
+		DD307AB4204146C200900AF7 /* CYCircleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCircleCell.h; sourceTree = "<group>"; };
+		DD307AB5204146C200900AF7 /* CYCircleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCircleCell.m; sourceTree = "<group>"; };
+		DD307AB6204146C200900AF7 /* CYCircleImgCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCircleImgCollectionViewCell.h; sourceTree = "<group>"; };
+		DD307AB7204146C200900AF7 /* CYCircleImgCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCircleImgCollectionViewCell.m; sourceTree = "<group>"; };
+		DD307AC02041471600900AF7 /* UIBarButtonItem+WX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WX.h"; sourceTree = "<group>"; };
+		DD307AC12041471600900AF7 /* UIBarButtonItem+WX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WX.m"; sourceTree = "<group>"; };
+		DD307AC42041473E00900AF7 /* UIImage+WX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WX.h"; sourceTree = "<group>"; };
+		DD307AC52041473E00900AF7 /* UIImage+WX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WX.m"; sourceTree = "<group>"; };
+		DD307AC82041475300900AF7 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		DD307AC92041475300900AF7 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		DD307ACA2041475300900AF7 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		DD307ACB2041475300900AF7 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		DD307ACF204147DF00900AF7 /* FitsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitsTool.h; sourceTree = "<group>"; };
+		DD307AD0204147DF00900AF7 /* FitsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitsTool.m; sourceTree = "<group>"; };
+		DD307AD1204147DF00900AF7 /* ScreenAdapt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenAdapt.h; sourceTree = "<group>"; };
+		DD307AD2204147DF00900AF7 /* ScreenAdapt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenAdapt.m; sourceTree = "<group>"; };
+		DD307AD5204147EC00900AF7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD307A752041467D00900AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD307A6F2041467D00900AF7 = {
+			isa = PBXGroup;
+			children = (
+				DD307A7A2041467D00900AF7 /* CYCircleDemo */,
+				DD307A792041467D00900AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD307A792041467D00900AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD307A782041467D00900AF7 /* CYCircleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD307A7A2041467D00900AF7 /* CYCircleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DD307ABE2041470C00900AF7 /* Lib */,
+				DD307AA8204146C200900AF7 /* CircleModule */,
+				DD307A7E2041467D00900AF7 /* AppDelegate.h */,
+				DD307A7F2041467D00900AF7 /* AppDelegate.m */,
+				DD307A812041467D00900AF7 /* ViewController.h */,
+				DD307A822041467D00900AF7 /* ViewController.m */,
+				DD307A842041467D00900AF7 /* Main.storyboard */,
+				DD307A872041467D00900AF7 /* Assets.xcassets */,
+				DD307A892041467D00900AF7 /* LaunchScreen.storyboard */,
+				DD307A8C2041467D00900AF7 /* Info.plist */,
+				DD307A7B2041467D00900AF7 /* Supporting Files */,
+				DD307AD5204147EC00900AF7 /* PrefixHeader.pch */,
+			);
+			path = CYCircleDemo;
+			sourceTree = "<group>";
+		};
+		DD307A7B2041467D00900AF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD307A7C2041467D00900AF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD307AA8204146C200900AF7 /* CircleModule */ = {
+			isa = PBXGroup;
+			children = (
+				DD307AA9204146C200900AF7 /* Controller */,
+				DD307AAC204146C200900AF7 /* Model */,
+				DD307AB1204146C200900AF7 /* View */,
+			);
+			path = CircleModule;
+			sourceTree = "<group>";
+		};
+		DD307AA9204146C200900AF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD307AAA204146C200900AF7 /* CYCircleHomeCenterViewController.h */,
+				DD307AAB204146C200900AF7 /* CYCircleHomeCenterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD307AAC204146C200900AF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD307AAD204146C200900AF7 /* CYAnswerModel.h */,
+				DD307AAE204146C200900AF7 /* CYAnswerModel.m */,
+				DD307AAF204146C200900AF7 /* CYCircleModel.h */,
+				DD307AB0204146C200900AF7 /* CYCircleModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD307AB1204146C200900AF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD307AB2204146C200900AF7 /* CYAnswerView.h */,
+				DD307AB3204146C200900AF7 /* CYAnswerView.m */,
+				DD307AB4204146C200900AF7 /* CYCircleCell.h */,
+				DD307AB5204146C200900AF7 /* CYCircleCell.m */,
+				DD307AB6204146C200900AF7 /* CYCircleImgCollectionViewCell.h */,
+				DD307AB7204146C200900AF7 /* CYCircleImgCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD307ABE2041470C00900AF7 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DD307ACE204147DF00900AF7 /* ScreenFits */,
+				DD307AC72041475300900AF7 /* SDAutoLayout */,
+				DD307AC42041473E00900AF7 /* UIImage+WX.h */,
+				DD307AC52041473E00900AF7 /* UIImage+WX.m */,
+				DD307AC02041471600900AF7 /* UIBarButtonItem+WX.h */,
+				DD307AC12041471600900AF7 /* UIBarButtonItem+WX.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DD307AC72041475300900AF7 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DD307AC82041475300900AF7 /* UITableView+SDAutoTableViewCellHeight.h */,
+				DD307AC92041475300900AF7 /* UITableView+SDAutoTableViewCellHeight.m */,
+				DD307ACA2041475300900AF7 /* UIView+SDAutoLayout.h */,
+				DD307ACB2041475300900AF7 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		DD307ACE204147DF00900AF7 /* ScreenFits */ = {
+			isa = PBXGroup;
+			children = (
+				DD307ACF204147DF00900AF7 /* FitsTool.h */,
+				DD307AD0204147DF00900AF7 /* FitsTool.m */,
+				DD307AD1204147DF00900AF7 /* ScreenAdapt.h */,
+				DD307AD2204147DF00900AF7 /* ScreenAdapt.m */,
+			);
+			path = ScreenFits;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD307A772041467D00900AF7 /* CYCircleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD307A8F2041467D00900AF7 /* Build configuration list for PBXNativeTarget "CYCircleDemo" */;
+			buildPhases = (
+				DD307A742041467D00900AF7 /* Sources */,
+				DD307A752041467D00900AF7 /* Frameworks */,
+				DD307A762041467D00900AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYCircleDemo;
+			productName = CYCircleDemo;
+			productReference = DD307A782041467D00900AF7 /* CYCircleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD307A702041467D00900AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "陈玉";
+				TargetAttributes = {
+					DD307A772041467D00900AF7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U79R7RLY2D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD307A732041467D00900AF7 /* Build configuration list for PBXProject "CYCircleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD307A6F2041467D00900AF7;
+			productRefGroup = DD307A792041467D00900AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD307A772041467D00900AF7 /* CYCircleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD307A762041467D00900AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD307A8B2041467D00900AF7 /* LaunchScreen.storyboard in Resources */,
+				DD307A882041467D00900AF7 /* Assets.xcassets in Resources */,
+				DD307A862041467D00900AF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD307A742041467D00900AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD307ABB204146C200900AF7 /* CYAnswerView.m in Sources */,
+				DD307AD3204147DF00900AF7 /* FitsTool.m in Sources */,
+				DD307AC32041471600900AF7 /* UIBarButtonItem+WX.m in Sources */,
+				DD307AB8204146C200900AF7 /* CYCircleHomeCenterViewController.m in Sources */,
+				DD307AB9204146C200900AF7 /* CYAnswerModel.m in Sources */,
+				DD307ABD204146C200900AF7 /* CYCircleImgCollectionViewCell.m in Sources */,
+				DD307A832041467D00900AF7 /* ViewController.m in Sources */,
+				DD307A802041467D00900AF7 /* AppDelegate.m in Sources */,
+				DD307A7D2041467D00900AF7 /* main.m in Sources */,
+				DD307AD4204147DF00900AF7 /* ScreenAdapt.m in Sources */,
+				DD307AC62041473E00900AF7 /* UIImage+WX.m in Sources */,
+				DD307ABA204146C200900AF7 /* CYCircleModel.m in Sources */,
+				DD307ACD2041475300900AF7 /* UIView+SDAutoLayout.m in Sources */,
+				DD307ACC2041475300900AF7 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				DD307ABC204146C200900AF7 /* CYCircleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD307A842041467D00900AF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD307A852041467D00900AF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD307A892041467D00900AF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD307A8A2041467D00900AF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD307A8D2041467D00900AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD307A8E2041467D00900AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD307A902041467D00900AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U79R7RLY2D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CYCircleDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = CYCircleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ManYiWang.CYCircleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD307A912041467D00900AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U79R7RLY2D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CYCircleDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = CYCircleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ManYiWang.CYCircleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD307A732041467D00900AF7 /* Build configuration list for PBXProject "CYCircleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD307A8D2041467D00900AF7 /* Debug */,
+				DD307A8E2041467D00900AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD307A8F2041467D00900AF7 /* Build configuration list for PBXNativeTarget "CYCircleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD307A902041467D00900AF7 /* Debug */,
+				DD307A912041467D00900AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD307A702041467D00900AF7 /* Project object */;
+}

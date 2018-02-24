@@ -1,0 +1,71 @@
+//
+//  PrefixHeader.pch
+//  CYCircleDemo
+//
+//  Created by 陈玉 on 18/2/24.
+//  Copyright © 2018年 陈玉. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+SDAutoLayout.h"
+#import "ScreenAdapt.h"
+#import "FitsTool.h"
+
+
+
+/**
+ 当前屏幕宽度
+ */
+#define MLScreenWidth         [UIScreen mainScreen].bounds.size.width
+// 当前屏幕高度
+#define MLScreenHeight        [UIScreen mainScreen].bounds.size.height
+
+
+// 手机的不同型号
+#define iphone4               ((MLScreenWidth == 320.000000 && MLScreenHeight == 480.000000) || (MLScreenWidth == 480.000000 && MLScreenHeight == 320.000000))
+#define iphone4s              ((MLScreenWidth == 320.000000 && MLScreenHeight == 480.000000) || (MLScreenWidth == 480.000000 && MLScreenHeight == 320.000000))
+#define iphone5               ((MLScreenWidth == 320.000000 && MLScreenHeight == 568.000000) || (MLScreenWidth == 568.000000 && MLScreenHeight == 320.000000))
+#define iphone5s              ((MLScreenWidth == 320.000000 && MLScreenHeight == 568.000000) || (MLScreenWidth == 568.000000 && MLScreenHeight == 320.000000))
+#define iphone6               ((MLScreenWidth == 375.000000 && MLScreenHeight == 667.000000) || (MLScreenWidth == 667.000000 && MLScreenHeight == 375.000000))
+#define iphone6s              ((MLScreenWidth == 375.000000 && MLScreenHeight == 667.000000) || (MLScreenWidth == 667.000000 && MLScreenHeight == 375.000000))
+#define iphone6Plus           ((MLScreenWidth == 414.000000 && MLScreenHeight == 736.000000) || (MLScreenWidth == 736.000000 && MLScreenHeight == 414.000000))
+#define iphone6sPlus          ((MLScreenWidth == 414.000000 && MLScreenHeight == 736.000000) || (MLScreenWidth == 736.000000 && MLScreenHeight == 414.000000))
+
+#define iphone7               ((MLScreenWidth == 375.000000 && MLScreenHeight == 667.000000) || (MLScreenWidth == 667.000000 && MLScreenHeight == 375.000000))
+#define iphone7Plus          ((MLScreenWidth == 414.000000 && MLScreenHeight == 736.000000) || (MLScreenWidth == 736.000000 && MLScreenHeight == 414.000000))
+#define iphone8               ((MLScreenWidth == 375.000000 && MLScreenHeight == 667.000000) || (MLScreenWidth == 667.000000 && MLScreenHeight == 375.000000))
+#define iphone8Plus          ((MLScreenWidth == 414.000000 && MLScreenHeight == 736.000000) || (MLScreenWidth == 736.000000 && MLScreenHeight == 414.000000))
+
+
+#define IPHONE4  (([UIScreen mainScreen].bounds.size.width == 320) && ([UIScreen mainScreen].bounds.size.height == 480)) || (([UIScreen mainScreen].bounds.size.width == 480) && ([UIScreen mainScreen].bounds.size.height == 320))
+#define IPHONE5  (([UIScreen mainScreen].bounds.size.width == 320) && ([UIScreen mainScreen].bounds.size.height == 568)) || (([UIScreen mainScreen].bounds.size.width == 568) && ([UIScreen mainScreen].bounds.size.height == 320))
+#define IPHONE6  ([UIScreen mainScreen].bounds.size.width == 375) && ([UIScreen mainScreen].bounds.size.height == 667) || ([UIScreen mainScreen].bounds.size.width == 667) && ([UIScreen mainScreen].bounds.size.height == 375)
+#define IPHONE6P  ([UIScreen mainScreen].bounds.size.width == 414) && ([UIScreen mainScreen].bounds.size.height == 736) || ([UIScreen mainScreen].bounds.size.width == 736) && ([UIScreen mainScreen].bounds.size.height == 414)
+#define IPHONE7  ([UIScreen mainScreen].bounds.size.width == 375) && ([UIScreen mainScreen].bounds.size.height == 667) || ([UIScreen mainScreen].bounds.size.width == 667) && ([UIScreen mainScreen].bounds.size.height == 375)
+#define IPHONE7P  ([UIScreen mainScreen].bounds.size.width == 414) && ([UIScreen mainScreen].bounds.size.height == 736) || ([UIScreen mainScreen].bounds.size.width == 736) && ([UIScreen mainScreen].bounds.size.height == 414)
+#define IPHONE8  ([UIScreen mainScreen].bounds.size.width == 375) && ([UIScreen mainScreen].bounds.size.height == 667) || ([UIScreen mainScreen].bounds.size.width == 667) && ([UIScreen mainScreen].bounds.size.height == 375)
+#define IPHONE8P  ([UIScreen mainScreen].bounds.size.width == 414) && ([UIScreen mainScreen].bounds.size.height == 736) || ([UIScreen mainScreen].bounds.size.width == 736) && ([UIScreen mainScreen].bounds.size.height == 414)
+
+
+#define IP4HRate (CGFloat)(480.0/667.0)
+#define IP4WRate (CGFloat)(320.0/375.0)
+#define IP5HRate (CGFloat)(568.0/667.0)
+#define IP5WRate (CGFloat)(320.0/375.0)
+#define IP6PHRate (CGFloat)(736.0/667.0)
+#define IP6PWRate (CGFloat)(414.0/375.0)
+
+#define ip6Height 667.0
+#define ip6Width 375.0
+#define ip6Bounds CGRectMake(0, 0, ip6Width, ip6Height)
+
+
+//将十六进制色值转换的宏
+#define FDDKConvertColorBy0xHexRGB(rgbValue) ([UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0])
+#define FDDKConvertColorBy0xHexRGBAlpha(rgbValue,a) ([UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)])
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
